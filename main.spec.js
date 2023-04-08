@@ -45,22 +45,22 @@ describe("Age Classification", () => {
 
 
 describe("Days of the week", function() {
-  it("return day of the week", function() {
+  it("return Понедельник", () => {
     expect(weekFn(1)).toBe("Понедельник");
   });
-  it("return day of the week", function() {
+  it("return Среда", () => {
     expect(weekFn(3)).toBe("Среда");
   });
-  it("return day of the week", function() {
+  it("return Воскресенье", () => {
     expect(weekFn(7)).toBe("Воскресенье");
   });
-  it("return day of the week", function() {
+  it("return null", () => {
     expect(weekFn(9)).toBe(null);
  });
- it("return day of the week", function() {
+ it("return null", () => {
     expect(weekFn(1.5)).toBe(null);
   });
-  it("return day of the week", function() {
+  it("return null", () => {
     expect(weekFn("2")).toBe(null);
   });
 });
